@@ -2,8 +2,13 @@
 
 ## Reproduire les résultats:
 
-Editer le fichier bilateral_filter.m afin de fixer les valeurs des paramètres 
-Puis lancer :
+Créer un dossier nommé 'results' à la racine:
+
+```
+mkdir results
+```
+
+Editer le fichier bilateral_filter.m afin de fixer les valeurs des paramètres, puis lancer :
 
 ```
 octave bilateral_filter.m
