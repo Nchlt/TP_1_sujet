@@ -5,7 +5,7 @@
     I=mean(I,3);
     sizeI=size(I);
     %% Apply noise to the original image
-    noise_coef = 0.1; % Coef de bruitage initial
+    noise_coef = 0.15; % Coef de bruitage initial
     u=I+noise_coef*randn(sizeI);
     %figure; imshow(u);title('Noisy observed image');
 
@@ -27,7 +27,7 @@
     end;
 
 % Step2.
-% Calcul de u tilde et T
+% Calcul de u tilde et t
 N = size_I_noisy(1);
 M = size_I_noisy(2);
 % matrice qui contiendra l image finale :
